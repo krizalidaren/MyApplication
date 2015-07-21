@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="welcome_text">The music you like, everywhere</string>
+    <string name="welcome_text_footer" translatable="false">dragh.io/sfotipy</string>
 </resources>
