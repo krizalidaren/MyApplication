@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Preferencias</string>
+    <string name="welcome_text">La música que te gusta, en cualquier parte</string>
+</resources>

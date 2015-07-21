@@ -4,30 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
-
 
 public class MainActivity extends Activity {
-
-    private EditText editText;
-    private TextView textView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-
-    public void onClick(View view){
-        editText = (EditText) findViewById(R.id.editText);
-        textView = (TextView) findViewById(R.id.textView);
-
-        String a = editText.getText().toString();
-        textView.setText("Hola "+a+"...");
-
     }
 
     @Override
@@ -52,19 +35,4 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public EditText getEditText() {
-        return editText;
-    }
-
-    public void setEditText(EditText editText) {
-        this.editText = editText;
-    }
-
-    public TextView getTextView() {
-        return textView;
-    }
-
-    public void setTextView(TextView textView) {
-        this.textView = textView;
-    }
 }
