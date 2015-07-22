@@ -5,10 +5,10 @@
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorAccent">@color/accent</item>
     </style>
-    <color name="primary_dark">#303F9F</color>
-    <color name="primary">#3F51B5</color>
-    <color name="accent">#FF4081</color>
+    <color name="primary_dark">#1A292E</color>
+    <color name="primary">#223F43</color>
+    <color name="accent">#FF3D00</color>
     <color name="text_color">#f4f4f4</color>
-    <color name="text_color2">#000</color>
+    <color name="text_color2">#ff519499</color>
     <color name="background_main">#000</color>
 </resources>

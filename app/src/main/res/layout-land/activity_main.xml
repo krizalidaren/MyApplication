@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="400dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/header_bg"
+        android:src="@drawable/bg_4"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -45,8 +45,8 @@
             android:layout_marginTop="15dp"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:scaleType="fitCenter"
-            android:id="@+id/imageButton"
+            android:onClick="onClick"
+            android:id="@+id/fab_1"
             android:src="@drawable/login"
             android:background="@drawable/ripple"/>
 
